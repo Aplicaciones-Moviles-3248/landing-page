@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Courtly | Reserva. Juega. Disfruta.</title>
+
+  <meta name="description" content="Courtly te permite buscar y reservar canchas deportivas, conectar con entrenadores independientes y organizar tus partidos desde una sola app." />
+  <meta name="keywords" content="Courtly, reserva de canchas, entrenadores deportivos, partidos, app deportiva, deporte amateur" />
+  <meta name="author" content="Mova" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+  <script src="language.js" defer></script>
+</head>
+
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header class="navbar bg-darker">
+    <div class="navbar-container">
+      <a href="#home" class="navbar-logo">
+        <img src="imgs/logo.png" alt="Courtly logo" />
+      </a>
+
+      <button class="menu-toggle" aria-label="Abrir menú">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+
+      <nav class="nav-links">
+        <ul>
+          <li><a href="#home" class="nav-item active" data-key="nav_home">Inicio</a></li>
+          <li><a href="#features" class="nav-item" data-key="nav_features">Características</a></li>
+          <li><a href="#benefits" class="nav-item" data-key="nav_benefits">Beneficios</a></li>
+          <li><a href="#how" class="nav-item" data-key="nav_how">Cómo funciona</a></li>
+          <li><a href="#plans" class="nav-item" data-key="nav_plans">Planes</a></li>
+          <li><a href="#team" class="nav-item" data-key="nav_team">Equipo</a></li>
+          <li><a href="#testimonials" class="nav-item" data-key="nav_testimonials">Testimonios</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <button class="lang-toggle" type="button" aria-label="Cambiar idioma">
+          <i class="fa-solid fa-globe"></i>
+          <span class="lang-label">ES</span>
+        </button>
+        <a href="#cta" class="btn-main btn-download" data-key="nav_download">Descargar</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section id="home" class="hero-carousel bg-gradient">
+    <div class="carousel-container">
+
+      <div class="carousel-slide active">
+        <div class="hero-content">
+          <span class="hero-badge" data-key="hero_badge_1">Para jugadores</span>
+          <h1 data-key="hero_title_1">Encuentra cancha y arma tu partido sin complicarte</h1>
+          <p>
+            <span data-key="hero_text_1">Busca canchas, compara horarios y reserva en minutos para pasar menos tiempo coordinando y más tiempo jugando.</span>
+          </p>
+          <div class="hero-buttons">
+            <a href="#plans" class="btn-main" data-key="hero_btn_plans_1">Ver planes para jugadores</a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <img src="imgs/slide1.png" alt="Buscar y reservar canchas con Courtly">
+        </div>
+      </div>
+
+      <div class="carousel-slide">
+        <div class="hero-content">
+          <span class="hero-badge" data-key="hero_badge_2">Para entrenadores</span>
+          <h1 data-key="hero_title_2">Haz visible tu servicio y organiza tus entrenamientos</h1>
+          <p>
+            <span data-key="hero_text_2">Publica tu perfil, muestra disponibilidad y gestiona solicitudes con una experiencia más clara y profesional.</span>
+          </p>
+          <div class="hero-buttons">
+            <a href="#plans" class="btn-main" data-key="hero_btn_plans_2">Ver planes para entrenadores</a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <img src="imgs/slide2.png" alt="Reservas y gestión deportiva en Courtly">
+        </div>
+      </div>
+
+    </div>
+
+    <button class="carousel-control prev" aria-label="Anterior">
+      <i class="fa-solid fa-chevron-left"></i>
+    </button>
+    <button class="carousel-control next" aria-label="Siguiente">
+      <i class="fa-solid fa-chevron-right"></i>
+    </button>
+
+    <div class="carousel-indicators">
+      <span class="dot active"></span>
+      <span class="dot"></span>
+    </div>
+  </section>
+
+  <!-- ===== FEATURES ===== -->
+  <section id="features" class="value-prop-slider section-light">
+    <div class="container">
+      <h2 data-key="features_title">¿Por qué Courtly?</h2>
+      <p class="subtitle">
+        <span data-key="features_subtitle">Courtly centraliza la búsqueda, reserva y organización deportiva
+        en una experiencia simple, rápida y confiable.</span>
+      </p>
+
+      <div class="value-cards">
+        <div class="card">
+          <div class="card-icon"><i class="fa-solid fa-location-dot"></i></div>
+          <h3 data-key="feature_1_title">Búsqueda inteligente</h3>
+          <p>
+            <span data-key="feature_1_text">Encuentra canchas por ubicación, deporte, precio y horario
+            según lo que realmente necesitas.</span>
+          </p>
+        </div>
+
+        <div class="card">
+          <div class="card-icon"><i class="fa-solid fa-calendar-check"></i></div>
+          <h3 data-key="feature_2_title">Reservas rápidas</h3>
+          <p>
+            <span data-key="feature_2_text">Consulta disponibilidad en tiempo real y confirma tu reserva
+            en pocos pasos desde tu celular.</span>
+          </p>
+        </div>
+
+        <div class="card">
+          <div class="card-icon"><i class="fa-solid fa-credit-card"></i></div>
+          <h3 data-key="feature_3_title">Pagos digitales</h3>
+          <p>
+            <span data-key="feature_3_text">Completa el proceso de forma más cómoda y segura
+            sin salir de la aplicación.</span>
+          </p>
+        </div>
+
+        <div class="card">
+          <div class="card-icon"><i class="fa-solid fa-user-group"></i></div>
+          <h3 data-key="feature_4_title">Entrenadores confiables</h3>
+          <p>
+            <span data-key="feature_4_text">Conecta con entrenadores independientes, revisa sus perfiles
+            y organiza sesiones deportivas con mayor confianza.</span>
+          </p>
+        </div>
+
+        <div class="card">
+          <div class="card-icon"><i class="fa-solid fa-star"></i></div>
+          <h3 data-key="feature_5_title">Reseñas y valoraciones</h3>
+          <p>
+            <span data-key="feature_5_text">Toma mejores decisiones con opiniones y calificaciones
+            de otros usuarios dentro de la plataforma.</span>
+          </p>
+        </div>
+
+        <div class="card">
+          <div class="card-icon"><i class="fa-solid fa-bell"></i></div>
+          <h3 data-key="feature_6_title">Notificaciones útiles</h3>
+          <p>
+            <span data-key="feature_6_text">Recibe confirmaciones, cambios y recordatorios
+            importantes sobre tus reservas y actividades.</span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== BENEFITS ===== -->
+  <section id="benefits" class="audience-benefits section-soft">
+  <div class="container">
+    <h2 data-key="benefits_title">Beneficios para cada perfil</h2>
+    <p class="subtitle">
+      <span data-key="benefits_subtitle">Courtly está diseñado para resolver problemas reales del deporte amateur.</span>
+    </p>
+
+    <div class="benefit-slider">
+      <div class="benefit-track">
+
+        <div class="benefit-card active">
+          <div class="benefit-symbol"><i class="fa-solid fa-futbol"></i></div>
+          <h3 data-key="benefit_1_title">Deportistas aficionados</h3>
+          <p>
+            <span data-key="benefit_1_text">Organiza tus partidos de forma más rápida, encuentra canchas
+            disponibles y evita procesos desordenados que hacen perder tiempo.</span>
+          </p>
+        </div>
+
+        <div class="benefit-card">
+          <div class="benefit-symbol"><i class="fa-solid fa-dumbbell"></i></div>
+          <h3 data-key="benefit_2_title">Entrenadores independientes</h3>
+          <p>
+            <span data-key="benefit_2_text">Muestra tus servicios, mejora tu visibilidad y gestiona reservas,
+            horarios y pagos con una imagen más profesional.</span>
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- ===== HOW IT WORKS ===== -->
+  <section id="how" class="how-it-works section-light">
+    <div class="container">
+      <div class="how-content">
+
+        <div class="steps-column">
+          <h2 data-key="how_title">Cómo funciona</h2>
+          <p class="subtitle">
+            <span data-key="how_subtitle">Selecciona tu perfil y descubre cómo Courtly se adapta a ti.</span>
+          </p>
+
+          <div class="how-selector">
+            <button class="how-icon active" data-target="jugador" aria-label="Jugador">
+              <i class="fa-solid fa-futbol"></i>
+            </button>
+
+            <button class="how-icon" data-target="entrenador" aria-label="Entrenador">
+              <i class="fa-solid fa-dumbbell"></i>
+            </button>
+          </div>
+
+          <div class="steps">
+            <div class="step-card">
+              <div class="step-number">1</div>
+              <div class="step-info">
+                <h3 id="how-step1-title">Busca opciones</h3>
+                <p id="how-step1-text">
+                  Explora canchas por ubicación, deporte, precio y horario.
+                </p>
+              </div>
+            </div>
+
+            <div class="step-card">
+              <div class="step-number">2</div>
+              <div class="step-info">
+                <h3 id="how-step2-title">Compara y reserva</h3>
+                <p id="how-step2-text">
+                  Revisa disponibilidad real, elige la mejor opción y confirma tu reserva.
+                </p>
+              </div>
+            </div>
+
+            <div class="step-card">
+              <div class="step-number">3</div>
+              <div class="step-info">
+                <h3 id="how-step3-title">Juega y califica</h3>
+                <p id="how-step3-text">
+                  Realiza tu actividad, recibe notificaciones y comparte tu experiencia.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-column">
+          <div class="video-wrapper">
+            <iframe
+              src="https://www.youtube.com/embed/dQw4w9WgXcQ?rel=0&controls=1"
+              title="Presentación Courtly"
+              frameborder="0"
+              allowfullscreen>
+            </iframe>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PLANS ===== -->
+  <section id="plans" class="pricing-section section-soft">
+    <div class="container">
+      <h2 data-key="plans_title">Planes</h2>
+      <p class="subtitle">
+        <span data-key="plans_subtitle">Elige la opción que mejor se adapte a tu experiencia dentro de Courtly.</span>
+      </p>
+
+      <div class="pricing-cards">
+        <div class="plan-card">
+          <span class="plan-badge" data-key="plan_player_badge">Jugador</span>
+          <h3 data-key="plan_player_title">Jugador Courtly</h3>
+          <div class="price">
+            <span class="currency">S/</span>
+            <span class="amount">9</span>
+            <span class="period" data-key="plan_player_period">/mes</span>
+          </div>
+
+          <ul class="features">
+            <li data-key="plan_player_1">Buscar canchas por ubicación</li>
+            <li data-key="plan_player_2">Filtrar por deporte, precio y horario</li>
+            <li data-key="plan_player_3">Ver detalles de cancha</li>
+            <li data-key="plan_player_4">Reservar desde la app</li>
+            <li data-key="plan_player_5">Pagos digitales</li>
+            <li data-key="plan_player_6">Crear y unirse a partidos</li>
+          </ul>
+
+          <a href="#cta" class="btn-main" data-key="plan_player_cta">Elegir plan</a>
+        </div>
+
+        <div class="plan-card featured">
+          <span class="plan-badge highlight-badge" data-key="plan_trainer_badge">Entrenador</span>
+          <h3 data-key="plan_trainer_title">Entrenador Courtly</h3>
+          <div class="price">
+            <span class="currency">S/</span>
+            <span class="amount">19</span>
+            <span class="period" data-key="plan_trainer_period">/mes</span>
+          </div>
+
+          <ul class="features">
+            <li data-key="plan_trainer_1">Perfil profesional visible</li>
+            <li data-key="plan_trainer_2">Publicación de disponibilidad</li>
+            <li data-key="plan_trainer_3">Gestión de solicitudes</li>
+            <li data-key="plan_trainer_4">Visualización de pagos</li>
+            <li data-key="plan_trainer_5">Recepción de reseñas</li>
+            <li data-key="plan_trainer_6">Estadísticas de rendimiento</li>
+          </ul>
+
+          <a href="#cta" class="btn-main" data-key="plan_trainer_cta">Elegir plan</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TEAM ===== -->
+  <section id="team" class="team-section section-light">
+    <div class="container">
+      <h2 data-key="team_title">Conoce al equipo</h2>
+      <p class="subtitle">
+        <span data-key="team_subtitle">Detrás de <strong>Courtly</strong> está <strong>Mova</strong>, un equipo enfocado en
+        crear una experiencia más eficiente para la organización deportiva.</span>
+      </p>
+
+      <div class="team-grid">
+        <div class="team-member">
+          <img src="imgs/Juan.jpg" alt="Juan Carlos Angulo">
+          <h4>Angulo Abud, Juan Carlos</h4>
+        </div>
+
+        <div class="team-member">
+          <img src="imgs/Eduardo.jpg" alt="Eduardo Fabian Chacaliaza">
+          <h4>Chacaliaza Minaya, Eduardo Fabian</h4>
+        </div>
+
+        <div class="team-member">
+          <img src="imgs/Camilla.jpg" alt="Camilla Espinoza">
+          <h4>Espinoza Vivas, Camilla Leonor</h4>
+        </div>
+
+        <div class="team-member">
+          <img src="imgs/Pedro.jpg" alt="Pedro Nanfuñay">
+          <h4>Nanfuñay Liza, Pedro Jesús</h4>
+        </div>
+
+        <div class="team-member">
+          <img src="imgs/Fabricio.jpg" alt="Fabricio Quispe">
+          <h4>Quispe Barzola, Fabricio Fabian</h4>
+        </div>
+      </div>
+
+      <div class="team-row-horizontal">
+        <div class="video-wrapper clean">
+          <iframe
+            src="https://www.youtube.com/embed/dQw4w9WgXcQ?rel=0&controls=1"
+            title="Video del equipo Courtly"
+            frameborder="0"
+            allowfullscreen>
+          </iframe>
+        </div>
+
+        <div class="mission-vision-column">
+          <div class="info-card modern">
+            <i class="fa-solid fa-bullseye"></i>
+            <h3 data-key="mission_title">Misión</h3>
+            <p>
+              <span data-key="mission_text">Facilitar la organización de actividades deportivas conectando
+              a jugadores, canchas y entrenadores en una sola plataforma digital.</span>
+            </p>
+          </div>
+
+          <div class="info-card modern">
+            <i class="fa-solid fa-eye"></i>
+            <h3 data-key="vision_title">Visión</h3>
+            <p>
+              <span data-key="vision_text">Convertirnos en una referencia de la digitalización del deporte amateur,
+              brindando una experiencia más rápida, confiable y accesible.</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TESTIMONIALS ===== -->
+  <section id="testimonials" class="testimonials section-soft">
+    <div class="container">
+      <h2 data-key="testimonials_title">Testimonios</h2>
+      <p class="subtitle">
+        <span data-key="testimonials_subtitle">Courtly nace para resolver situaciones que viven jugadores y entrenadores todos los días.</span>
+      </p>
+
+      <div class="testimonial-carousel">
+        <div class="testimonial-track">
+
+          <div class="testimonial-card">
+            <img src="imgs/test5.jpg" alt="Valeria Rojas">
+            <p>
+              <span data-key="testimonial_1_text">“Me ayuda a organizar partidos sin depender de mil mensajes. Puedo ver opciones,
+              coordinar con mi grupo y reservar con más seguridad.”</span>
+            </p>
+            <h4>Valeria Rojas</h4>
+            <span data-key="testimonial_1_role">Jugadora aficionada</span>
+          </div>
+
+          <div class="testimonial-card">
+            <img src="imgs/test4.jpg" alt="Mateo Salazar">
+            <p>
+              <span data-key="testimonial_2_text">“Lo mejor es encontrar canchas disponibles rápido. Para los partidos de fin de semana,
+              tener horarios y precios claros hace toda la diferencia.”</span>
+            </p>
+            <h4>Mateo Salazar</h4>
+            <span data-key="testimonial_2_role">Jugador aficionado</span>
+          </div>
+
+          <div class="testimonial-card">
+            <img src="imgs/test2.jpg" alt="Camila Herrera">
+            <p>
+              <span data-key="testimonial_3_text">“Antes perdíamos mucho tiempo preguntando por disponibilidad. Con una app así,
+              reservar se siente más simple, ordenado y confiable.”</span>
+            </p>
+            <h4>Camila Herrera</h4>
+            <span data-key="testimonial_3_role">Jugadora aficionada</span>
+          </div>
+
+          <div class="testimonial-card">
+            <img src="imgs/test1.jpg" alt="Diego Morales">
+            <p>
+              <span data-key="testimonial_4_text">“Como entrenador, tener un perfil visible y horarios organizados me ayuda a mostrar
+              mejor mi servicio y responder solicitudes con más rapidez.”</span>
+            </p>
+            <h4>Diego Morales</h4>
+            <span data-key="testimonial_4_role">Entrenador independiente</span>
+          </div>
+
+          <div class="testimonial-card">
+            <img src="imgs/test6.jpg" alt="Lucía Fernández">
+            <p>
+              <span data-key="testimonial_5_text">“Poder gestionar sesiones, reservas y pagos desde un solo lugar mejora la experiencia
+              para mis alumnos y le da más confianza a mi trabajo.”</span>
+            </p>
+            <h4>Lucía Fernández</h4>
+            <span data-key="testimonial_5_role">Entrenadora deportiva</span>
+          </div>
+
+          <div class="testimonial-card">
+            <img src="imgs/test3.jpg" alt="Andrés Castillo">
+            <p>
+              <span data-key="testimonial_6_text">“Las reseñas y la disponibilidad visible pueden ayudar mucho a crecer como entrenador.
+              Es una forma más profesional de conectar con nuevos alumnos.”</span>
+            </p>
+            <h4>Andrés Castillo</h4>
+            <span data-key="testimonial_6_role">Coach deportivo</span>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CTA ===== -->
+  <section id="cta" class="cta-segmented">
+    <div class="container">
+      <h2 data-key="cta_title">Empieza a vivir una experiencia deportiva más simple</h2>
+      <p class="subtitle">
+        <span data-key="cta_subtitle">Menos desorden, menos tiempo perdido y más deporte con Courtly.</span>
+      </p>
+
+      <div class="cta-cards">
+        <div class="cta-card">
+          <div class="cta-symbol"><i class="fa-solid fa-futbol"></i></div>
+          <h3 data-key="cta_player_title">Quiero jugar</h3>
+          <p>
+            <span data-key="cta_player_text">Busca canchas, compara horarios y reserva en minutos para pasar menos tiempo coordinando y más tiempo jugando.</span>
+          </p>
+          <a href="#plans" class="btn-cta" data-key="cta_player_btn">Ver plan jugador</a>
+        </div>
+
+        <div class="cta-card">
+          <div class="cta-symbol"><i class="fa-solid fa-dumbbell"></i></div>
+          <h3 data-key="cta_trainer_title">Soy entrenador</h3>
+          <p>
+            <span data-key="cta_trainer_text">Publica tu perfil, muestra disponibilidad y gestiona solicitudes con una experiencia más clara y profesional.</span>
+          </p>
+          <a href="#plans" class="btn-cta" data-key="cta_trainer_btn">Ver plan entrenador</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="footer-container">
+
+      <div class="footer-col brand">
+        <h3 class="logo-text">COURTLY</h3>
+        <p>
+          <span data-key="footer_brand_text">Plataforma móvil para buscar canchas, reservar espacios deportivos,
+          conectar con entrenadores y organizar actividades de forma rápida y confiable.</span>
+        </p>
+      </div>
+
+      <div class="footer-col">
+        <h4 data-key="footer_links">Enlaces</h4>
+        <ul>
+          <li><a href="#home" data-key="nav_home">Inicio</a></li>
+          <li><a href="#features" data-key="nav_features">Características</a></li>
+          <li><a href="#benefits" data-key="nav_benefits">Beneficios</a></li>
+          <li><a href="#plans" data-key="nav_plans">Planes</a></li>
+          <li><a href="#testimonials" data-key="nav_testimonials">Testimonios</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4 data-key="footer_legal">Legal</h4>
+        <ul>
+          <li><a href="terminos.html" data-key="legal_terms">Términos y condiciones</a></li>
+          <li><a href="privacidad.html" data-key="legal_privacy">Política de privacidad</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col social">
+        <h4 data-key="footer_social">Síguenos</h4>
+        <div class="social-icons">
+          <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <p data-key="footer_copy">© 2026 Courtly. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
