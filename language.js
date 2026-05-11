@@ -28,16 +28,16 @@ const translations = {
     hero_title_1: "Encuentra cancha y arma tu partido sin complicarte",
     hero_text_1:
       "Busca canchas, compara horarios y reserva en minutos para pasar menos tiempo coordinando y más tiempo jugando.",
-    hero_btn_plans_1: "Ver planes para jugadores",
-    hero_btn_primary_1: "Ver planes para jugadores",
+    hero_btn_plans_1: "Ver plan para jugadores",
+    hero_btn_primary_1: "Ver plan para jugadores",
     hero_btn_secondary_1: "Ver planes",
 
     hero_badge_2: "Para entrenadores",
     hero_title_2: "Haz visible tu servicio y organiza tus entrenamientos",
     hero_text_2:
       "Publica tu perfil, muestra disponibilidad y gestiona solicitudes con una experiencia más clara y profesional.",
-    hero_btn_plans_2: "Ver planes para entrenadores",
-    hero_btn_primary_2: "Ver planes para entrenadores",
+    hero_btn_plans_2: "Ver plan para entrenadores",
+    hero_btn_primary_2: "Ver plan para entrenadores",
     hero_btn_secondary_2: "Ver planes",
 
     // Home - features
@@ -281,16 +281,16 @@ const translations = {
     hero_title_1: "Find a court and set up your match without the hassle",
     hero_text_1:
       "Search courts, compare schedules, and book in minutes so you spend less time coordinating and more time playing.",
-    hero_btn_plans_1: "See player plans",
-    hero_btn_primary_1: "See player plans",
+    hero_btn_plans_1: "See player plan",
+    hero_btn_primary_1: "See player plan",
     hero_btn_secondary_1: "See plans",
 
     hero_badge_2: "For coaches",
     hero_title_2: "Make your service visible and organize your training sessions",
     hero_text_2:
       "Publish your profile, show availability, and manage requests with a clearer, more professional experience.",
-    hero_btn_plans_2: "See coach plans",
-    hero_btn_primary_2: "See coach plans",
+    hero_btn_plans_2: "See coach plan",
+    hero_btn_primary_2: "See coach plan",
     hero_btn_secondary_2: "See plans",
 
     // Features
