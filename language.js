@@ -28,7 +28,7 @@ const translations = {
     hero_title_1: "Encuentra cancha y arma tu partido sin complicarte",
     hero_text_1:
       "Busca canchas, compara horarios y reserva en minutos para pasar menos tiempo coordinando y más tiempo jugando.",
-    hero_btn_plans_1: "Ver plan para jugadores",
+    hero_btn_plans_1: "Descargar",
     hero_btn_primary_1: "Ver plan para jugadores",
     hero_btn_secondary_1: "Ver planes",
 
@@ -36,7 +36,7 @@ const translations = {
     hero_title_2: "Haz visible tu servicio y organiza tus entrenamientos",
     hero_text_2:
       "Publica tu perfil, muestra disponibilidad y gestiona solicitudes con una experiencia más clara y profesional.",
-    hero_btn_plans_2: "Ver plan para entrenadores",
+    hero_btn_plans_2: "Descargar",
     hero_btn_primary_2: "Ver plan para entrenadores",
     hero_btn_secondary_2: "Ver planes",
 
@@ -162,12 +162,12 @@ const translations = {
     cta_player_title: "Quiero jugar",
     cta_player_text:
       "Busca canchas, compara horarios y reserva en minutos para pasar menos tiempo coordinando y más tiempo jugando.",
-    cta_player_btn: "Ver plan jugador",
+    cta_player_btn: "Descargar",
 
     cta_trainer_title: "Soy entrenador",
     cta_trainer_text:
       "Publica tu perfil, muestra disponibilidad y gestiona solicitudes con una experiencia más clara y profesional.",
-    cta_trainer_btn: "Ver plan entrenador",
+    cta_trainer_btn: "Descargar",
 
     // Privacy
     privacy_h1: "Política de Privacidad",
@@ -281,17 +281,17 @@ const translations = {
     hero_title_1: "Find a court and set up your match without the hassle",
     hero_text_1:
       "Search courts, compare schedules, and book in minutes so you spend less time coordinating and more time playing.",
-    hero_btn_plans_1: "See player plan",
-    hero_btn_primary_1: "See player plan",
-    hero_btn_secondary_1: "See plans",
+    hero_btn_plans_1: "Download",
+    hero_btn_primary_1: "Download",
+    hero_btn_secondary_1: "Download",
 
     hero_badge_2: "For coaches",
     hero_title_2: "Make your service visible and organize your training sessions",
     hero_text_2:
       "Publish your profile, show availability, and manage requests with a clearer, more professional experience.",
-    hero_btn_plans_2: "See coach plan",
-    hero_btn_primary_2: "See coach plan",
-    hero_btn_secondary_2: "See plans",
+    hero_btn_plans_2: "Download",
+    hero_btn_primary_2: "Download",
+    hero_btn_secondary_2: "Download",
 
     // Features
     features_title: "Why Courtly?",
@@ -415,12 +415,12 @@ const translations = {
     cta_player_title: "I want to play",
     cta_player_text:
       "Search courts, compare schedules, and book in minutes so you spend less time coordinating and more time playing.",
-    cta_player_btn: "See player plan",
+    cta_player_btn: "Download",
 
     cta_trainer_title: "I'm a coach",
     cta_trainer_text:
       "Publish your profile, show availability, and manage requests with a clearer, more professional experience.",
-    cta_trainer_btn: "See coach plan",
+    cta_trainer_btn: "Download",
 
     // Privacy
     privacy_h1: "Privacy Policy",
