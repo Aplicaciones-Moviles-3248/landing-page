@@ -1274,3 +1274,36 @@ h2 {
     font-size: 0.96rem;
   }
 }
+
+.video-placeholder-link {
+  width: 100%;
+  min-height: 315px;
+  border-radius: 20px;
+  background: #f4f7fb;
+  border: 1px solid #dce5f2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  text-align: center;
+  padding: 32px;
+}
+
+.video-placeholder-link i {
+  font-size: 42px;
+  color: #003b7a;
+}
+
+.video-placeholder-link h3 {
+  font-size: 24px;
+  color: #001f4d;
+  margin: 0;
+}
+
+.video-placeholder-link p {
+  max-width: 480px;
+  color: #4a5d7a;
+  line-height: 1.5;
+  margin: 0;
+}
