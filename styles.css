@@ -1307,3 +1307,124 @@ h2 {
   line-height: 1.5;
   margin: 0;
 }
+
+.video-wrapper.video-card-wrapper,
+.video-wrapper.clean.video-card-wrapper {
+  position: relative;
+  padding: 0;
+  min-height: 315px;
+  height: auto;
+  overflow: hidden;
+  border-radius: 24px;
+}
+
+.video-preview-link {
+  position: relative;
+  display: block;
+  width: 100%;
+  min-height: 315px;
+  border-radius: 24px;
+  overflow: hidden;
+  text-decoration: none;
+  color: white;
+}
+
+.video-preview-img {
+  width: 100%;
+  height: 100%;
+  min-height: 315px;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.35s ease;
+}
+
+.video-preview-link::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 31, 77, 0.25),
+    rgba(0, 31, 77, 0.78)
+  );
+  z-index: 1;
+}
+
+.video-preview-overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  padding: 32px;
+  text-align: center;
+  color: white;
+}
+
+.video-preview-overlay h3 {
+  margin: 0;
+  font-size: 26px;
+  font-weight: 800;
+  color: white;
+}
+
+.video-preview-overlay p {
+  max-width: 480px;
+  margin: 0;
+  color: white;
+  line-height: 1.5;
+}
+
+.play-badge {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.92);
+  color: #003b7a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+}
+
+.video-preview-btn {
+  margin-top: 4px;
+  pointer-events: none;
+}
+
+.video-preview-link:hover .video-preview-img {
+  transform: scale(1.04);
+}
+
+.team-row-horizontal {
+  display: grid;
+  grid-template-columns: 1.05fr 0.95fr;
+  gap: 28px;
+  align-items: stretch;
+  margin-top: 48px;
+}
+
+.team-row-horizontal .mission-vision-column {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.team-row-horizontal .info-card.modern {
+  flex: 1;
+}
+
+@media (max-width: 900px) {
+  .team-row-horizontal {
+    grid-template-columns: 1fr;
+  }
+
+  .video-preview-link,
+  .video-preview-img {
+    min-height: 260px;
+  }
+}
